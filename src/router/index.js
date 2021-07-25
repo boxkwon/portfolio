@@ -27,6 +27,22 @@ const routes = [
     name: 'Contact',
     component: () => import(/* webpackChunkName: "contact", webpackPrefetch:true */ '../views/Contact.vue')
   },
+  {
+    path: '/basic',
+    name: 'Basic',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "basic" */ '../views/Basic.vue')
+  },
+  {
+    path: '/databinding',
+    name: 'DataBinding',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "databinding" */ '../views/DataBinding.vue')
+  },
 ]
 
 const router = createRouter({
