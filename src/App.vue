@@ -6,8 +6,8 @@
     <router-link to="/basic">Basic</router-link> |
     <router-link to="/databinding">DataBinding</router-link> |
     <router-link to="/databindinghtml">DataBindingHtml</router-link> |
-    <router-link to="/databindingexample">DataBindingExample</router-link>
-
+    <router-link to="/databindingexample">DataBindingExample</router-link> |
+    <router-link to="/databindingattribute">DataBindingAttribute</router-link>
   </div>
   <router-view/>
 </template>
