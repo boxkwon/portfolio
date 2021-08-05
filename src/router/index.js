@@ -62,6 +62,11 @@ const routes = [
     name: 'DataBindingInlineStyle',
     component: () => import(/* webpackChunkName: "DataBindinginlinestyle" */ '../views/DataBindingInlineStyle.vue')
   },
+  {
+    path: '/Listrendering',
+    name: 'ListRendering',
+    component: () => import(/* webpackChunkName: "Listrendering" */ '../views/ListRendering.vue')
+  },
 ]
 
 const router = createRouter({

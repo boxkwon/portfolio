@@ -9,7 +9,8 @@
     <router-link to="/databindingexample">DataBindingExample</router-link> |
     <router-link to="/databindingattribute">DataBindingAttribute</router-link> |
     <router-link to="/DataBindingclass">DataBindingClass</router-link> |
-    <router-link to="/DataBindingInlineStyle">DataBindingInlineStyle</router-link>
+    <router-link to="/DataBindingInlineStyle">DataBindingInlineStyle</router-link> |
+    <router-link to="/Listrendering">ListRendering</router-link>
   </div>
   <router-view/>
 </template>
