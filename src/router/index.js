@@ -52,6 +52,11 @@ const routes = [
     name: 'DataBindingAttribute',
     component: () => import(/* webpackChunkName: "databindingattribute" */ '../views/DataBindingAttribute.vue')
   },
+  {
+    path: '/DataBindingclass',
+    name: 'DataBindingClass',
+    component: () => import(/* webpackChunkName: "DataBindingclass" */ '../views/DataBindingClass.vue')
+  },
 ]
 
 const router = createRouter({
