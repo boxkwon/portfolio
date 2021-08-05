@@ -37,6 +37,6 @@ export default {
 }
 
 .text-red {
-    color:tomato;
+    color:gold;
 }
 </style>
