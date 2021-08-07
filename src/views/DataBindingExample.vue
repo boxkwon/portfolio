@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="view">
         <div>
             <input type="text" v-model="valueModel" />
         </div>
@@ -65,7 +65,7 @@ export default {
 </script>
 <style scoped>
     div {
-        padding: 20px;
+        padding: 20px 0;
     }
     div + div {
         border-bottom: 1px dashed grey;

@@ -1,5 +1,7 @@
 <template>
-    <h1 v-html="htmlString"></h1>
+    <div class="view">
+        <h1 v-html="htmlString"></h1>
+    </div>
 </template>
 <script>
 export default {

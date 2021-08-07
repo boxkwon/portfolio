@@ -1,6 +1,6 @@
 <template>
-    <!-- <div v-bind:style="styleObject">인라인 스타일 Binding</div> -->
-    <div v-bind:style="[baseStyle, addStyle]">인라인 스타일 Binding</div>
+    <!-- <div class="view" v-bind:style="styleObject">인라인 스타일 Binding</div> -->
+    <div class="view" v-bind:style="[baseStyle, addStyle]">인라인 스타일 Binding</div>
 </template>
 <script>
 export default {
@@ -13,7 +13,7 @@ export default {
                 color: 'gold',
                 fontWeight: 'bold'
             },
-            baseStyle: 'background-color:steelblue; width:100%; height:200px;',
+            baseStyle: 'background-color:steelblue;',
             addStyle: 'color:gold; font-weight:bold;'
         };
     },

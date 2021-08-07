@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="view">
         <h1>{{ title }}</h1>
         <input type="text" v-model="title">
     </div>

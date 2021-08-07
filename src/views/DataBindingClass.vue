@@ -1,8 +1,8 @@
 <template>
-    <!-- <div class="container" v-bind:class="{'active':isActive, 'text-red':isRed}">
+    <!-- <div class="view container" v-bind:class="{'active':isActive, 'text-red':isRed}">
         Class Binding
     </div> -->
-    <div class="container" v-bind:class="[activeClass, redClass]">
+    <div class="view container" v-bind:class="[activeClass, redClass]">
         Class Binding
     </div>
 </template>
@@ -26,11 +26,6 @@ export default {
 }
 </script>
 <style scoped>
-.container {
-    width:100%;
-    height:200px;
-}
-
 .active {
     background-color:steelblue;
     font-weight:bold;

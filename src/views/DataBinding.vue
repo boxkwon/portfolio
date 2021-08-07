@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="view">
         <h1>{{ sampleData }}</h1>
         <div>{{ sampleData2 }}</div>
     </div>

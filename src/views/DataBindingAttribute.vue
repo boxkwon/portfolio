@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="view">
         <img v-bind:src="url" style="width:100px; height:auto"/>
         <div>
             <input type="text" v-model="textValue" />
