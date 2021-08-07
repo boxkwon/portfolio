@@ -67,6 +67,11 @@ const routes = [
     name: 'ListRendering',
     component: () => import(/* webpackChunkName: "Listrendering" */ '../views/ListRendering.vue')
   },
+  {
+    path: '/Renderingexample',
+    name: 'RenderingExample',
+    component: () => import(/* webpackChunkName: "Renderingexample" */ '../views/RenderingExample.vue')
+  },
 ]
 
 const router = createRouter({
