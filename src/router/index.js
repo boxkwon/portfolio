@@ -77,6 +77,11 @@ const routes = [
     name: 'EventExample',
     component: () => import(/* webpackChunkName: "Eventexample" */ '../views/EventExample.vue')
   },
+  {
+    path: '/Computedexample',
+    name: 'ComputedExample',
+    component: () => import(/* webpackChunkName: "Computedexample" */ '../views/ComputedExample.vue')
+  },
 
 ]
 

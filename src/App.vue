@@ -13,6 +13,7 @@
     <router-link to="/Listrendering">ListRendering</router-link>
     <router-link to="/Renderingexample">RenderingExample</router-link>
     <router-link to="/Eventexample">EventExample</router-link>
+    <router-link to="/Computedexample">ComputedExample</router-link>
   </div>
   <router-view/>
 </template>
