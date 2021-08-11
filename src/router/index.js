@@ -72,6 +72,12 @@ const routes = [
     name: 'RenderingExample',
     component: () => import(/* webpackChunkName: "Renderingexample" */ '../views/RenderingExample.vue')
   },
+  {
+    path: '/Eventexample',
+    name: 'EventExample',
+    component: () => import(/* webpackChunkName: "Eventexample" */ '../views/EventExample.vue')
+  },
+
 ]
 
 const router = createRouter({
