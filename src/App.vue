@@ -14,6 +14,7 @@
     <router-link to="/Renderingexample">RenderingExample</router-link>
     <router-link to="/Eventexample">EventExample</router-link>
     <router-link to="/Computedexample">ComputedExample</router-link>
+    <router-link to="/Watchexample">WatchExample</router-link>
   </div>
   <router-view/>
 </template>
