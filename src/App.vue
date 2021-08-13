@@ -15,6 +15,8 @@
     <router-link to="/Eventexample">EventExample</router-link>
     <router-link to="/Computedexample">ComputedExample</router-link>
     <router-link to="/Watchexample">WatchExample</router-link>
+    <router-link to="/Searchexample">SearchExample</router-link>
+    <router-link to="/Saveexample">SaveExample</router-link>
   </div>
   <router-view/>
 </template>
