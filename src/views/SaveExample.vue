@@ -29,7 +29,8 @@ export default {
     methods: {
         saveStockInfo() {
             if(this.stockInfo.name == '') {
-                return alert('종목명을 입력하세요.');
+                // return alert('종목명을 입력하세요.');
+                return this.$swal('종목명을 입력하세요.');
             }
             if(this.stockInfo.ticker == '') {
                 return alert('종목코드를 입력하세요.');

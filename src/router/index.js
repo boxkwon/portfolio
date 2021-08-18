@@ -97,6 +97,11 @@ const routes = [
     name: 'SaveExample',
     component: () => import(/* webpackChunkName: "Saveexample" */ '../views/SaveExample.vue')
   },
+  {
+    path: '/Serverdata',
+    name: 'ServerData',
+    component: () => import(/* webpackChunkName: "Serverdata" */ '../views/ServerData.vue')
+  },
 ]
 
 const router = createRouter({

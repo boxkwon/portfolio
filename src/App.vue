@@ -17,6 +17,7 @@
     <router-link to="/Watchexample">WatchExample</router-link>
     <router-link to="/Searchexample">SearchExample</router-link>
     <router-link to="/Saveexample">SaveExample</router-link>
+    <router-link to="/Serverdata">ServerData</router-link>
   </div>
   <router-view/>
 </template>
