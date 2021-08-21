@@ -107,6 +107,12 @@ const routes = [
     name: 'ImportExample',
     component: () => import(/* webpackChunkName: "Importexample" */ '../views/ImportExample.vue')
   },
+  {
+    path: '/Parentcomponentexample',
+    name: 'ParentComponentExample',
+    component: () => import(/* webpackChunkName: "Parentcomponentexample" */ '../views/ParentComponentExample.vue')
+  },
+
 ]
 
 const router = createRouter({

@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="view">
         <PageTitle title="부모 컴포넌트에서 전송할 타이틀" />
     </div>
 </template>

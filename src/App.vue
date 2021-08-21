@@ -19,6 +19,7 @@
     <router-link to="/Saveexample">SaveExample</router-link>
     <router-link to="/Serverdata">ServerData</router-link>
     <router-link to="/Importexample">ImportExample</router-link>
+    <router-link to="/Parentcomponentexample">ParentComponentExample</router-link>
   </div>
   <router-view/>
 </template>
