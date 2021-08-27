@@ -20,6 +20,7 @@
     <router-link to="/Serverdata">ServerData</router-link>
     <router-link to="/Importexample">ImportExample</router-link>
     <router-link to="/Parentcomponentexample">ParentComponentExample</router-link>
+    <router-link to="/Parentcomponentexample2">ParentComponentExample2</router-link>
   </div>
   <router-view/>
 </template>

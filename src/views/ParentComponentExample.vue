@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="view">
         <page-title :title="title" />
         <ChildComponent :likes="8" :isOk="isOk" :commentIds="commentIds" :author="author" />
     </div>
