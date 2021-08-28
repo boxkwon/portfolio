@@ -122,6 +122,11 @@ const routes = [
     name: 'ParentComponentExample3',
     component: () => import(/* webpackChunkName: "Parentcomponentexample3" */ '../views/ParentComponentExample3.vue')
   },
+  {
+    path: '/Parentcomponentexample4',
+    name: 'ParentComponentExample4',
+    component: () => import(/* webpackChunkName: "Parentcomponentexample4" */ '../views/ParentComponentExample4.vue')
+  },
 
 ]
 

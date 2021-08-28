@@ -22,6 +22,7 @@
     <router-link to="/Parentcomponentexample">ParentComponentExample</router-link>
     <router-link to="/Parentcomponentexample2">ParentComponentExample2</router-link>
     <router-link to="/Parentcomponentexample3">ParentComponentExample3</router-link>
+    <router-link to="/Parentcomponentexample4">ParentComponentExample4</router-link>
   </div>
   <router-view/>
 </template>
