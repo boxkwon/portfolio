@@ -26,6 +26,7 @@
     <router-link to="/Parentcomponentexample5">ParentComponentExample5</router-link>
     <router-link to="/Parentcomponentexample6">ParentComponentExample6</router-link>
     <router-link to="/slot">SlotUseModalLayout</router-link>
+    <router-link to="/Provideinject">ProvideInject</router-link>
   </div>
   <router-view/>
 </template>

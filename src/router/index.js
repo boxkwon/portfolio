@@ -142,6 +142,11 @@ const routes = [
     name: 'SlotUseModalLayout',
     component: () => import(/* webpackChunkName: "slot" */ '../views/SlotUseModalLayout.vue')
   },
+  {
+    path: '/Provideinject',
+    name: 'ProvideInject',
+    component: () => import(/* webpackChunkName: "Provideinject" */ '../views/ProvideInject.vue')
+  },
 
 ]
 
